@@ -1,0 +1,26 @@
+h1 {
+	color: brown;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #ff4500;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: grey;
+}
+
+.container {
+	margin-top:50px;
+	margin-bottom: 30px;
+}
+
+nav .container, footer .container {
+	margin: 0;
+}
