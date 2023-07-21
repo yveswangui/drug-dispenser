@@ -1,0 +1,81 @@
+.faq-item p {
+	color: maroon;
+}
+
+.hero {
+	background-color: orange;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+.hero h2 {
+	color: #000;
+}
+
+section h2 {
+	color: #ff4500;
+}
+
+section h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: grey;
+}
+
+section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+.hero * {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	border-radius: 50px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+form input[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+#our-team img, #our-values img {
+	border-radius: 20px;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+img {
+	border-radius: 10px;
+}
