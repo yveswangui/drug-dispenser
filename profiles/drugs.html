@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drugs</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Add Drug Details Form</title>
+</head>
+<body>
+    <h1>Add Drug Details Form</h1>
+    <form action="submit_drug_details.php" method="post" enctype="multipart/form-data">
+        <label for="drugName">Drug Name:</label>
+        <input type="text" id="drugName" name="drugName" required><br><br>
+
+        <label for="category">Category:</label><br>
+        <input type="radio" id="antibiotic" name="category" value="Antibiotic">
+        <label for="antibiotic">Antibiotic</label><br>
+        <input type="radio" id="painkiller" name="category" value="Painkiller">
+        <label for="painkiller">Painkiller</label><br>
+        <input type="radio" id="antacid" name="category" value="Antacid">
+        <label for="antacid">Antacid</label><br>
+        <input type="radio" id="antidepressant" name="category" value="Antidepressant">
+        <label for="antidepressant">Antidepressant</label><br>
+        <input type="radio" id="other" name="category" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/*"><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+</body>
+</html>
